@@ -1,0 +1,54 @@
+{
+  "kind": "collectionType",
+  "collectionName": "orders",
+  "info": {
+    "singularName": "order",
+    "pluralName": "orders",
+    "displayName": "Order",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Nome": {
+      "type": "string"
+    },
+    "Cognome": {
+      "type": "string"
+    },
+    "Societa": {
+      "type": "string"
+    },
+    "Telefono": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "string"
+    },
+    "TagliaOrientativa": {
+      "type": "string"
+    },
+    "DataRichiestaConsegna": {
+      "type": "string"
+    },
+    "LimiteSpesaMassima": {
+      "type": "string"
+    },
+    "Immagini": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Modifiche": {
+      "type": "text"
+    }
+  }
+}

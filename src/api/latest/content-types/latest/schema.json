@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "latests",
+  "info": {
+    "singularName": "latest",
+    "pluralName": "latests",
+    "displayName": "Latest",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

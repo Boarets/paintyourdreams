@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bodies",
+  "info": {
+    "singularName": "body",
+    "pluralName": "bodies",
+    "displayName": "Body",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "categories": {
+      "type": "enumeration",
+      "enum": [
+        "pattinaggio",
+        "acrobatica",
+        "ritmica"
+      ]
+    }
+  }
+}

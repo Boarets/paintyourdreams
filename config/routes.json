@@ -1,0 +1,5 @@
+{
+    "method": "POST",
+    "path": "/form/send",
+    "handler": "form.sendFormEmail"
+  }

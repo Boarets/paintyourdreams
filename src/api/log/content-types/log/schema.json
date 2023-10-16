@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "logs",
+  "info": {
+    "singularName": "log",
+    "pluralName": "logs",
+    "displayName": "Log"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "message": {
+      "type": "text"
+    },
+    "eventDate": {
+      "type": "datetime"
+    },
+    "eventLevel": {
+      "type": "enumeration",
+      "enum": [
+        "INFO",
+        "DEBUG",
+        "ERROR"
+      ]
+    },
+    "data": {
+      "type": "json"
+    }
+  }
+}
