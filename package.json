@@ -11,14 +11,22 @@
   },
   "dependencies": {
     "@strapi/plugin-i18n": "4.10.5",
+    "@strapi/plugin-upload": "^4.15.0",
     "@strapi/plugin-users-permissions": "4.10.5",
     "@strapi/provider-email-nodemailer": "^4.10.5",
     "@strapi/provider-email-sendgrid": "^4.10.5",
     "@strapi/strapi": "4.10.5",
     "better-sqlite3": "8.0.1",
+    "i18next": "^23.5.1",
+    "i18next-browser-languagedetector": "^7.1.0",
+    "i18next-http-backend": "^2.2.2",
+    "koa-body": "^6.0.1",
+    "koa-bodyparser": "^4.4.1",
     "nodemailer": "^6.9.5",
+    "react-i18next": "^13.3.0",
     "strapi-chatgpt": "^1.0.2",
-    "strapi-plugin-netlify-deployments": "^2.0.1"
+    "strapi-plugin-netlify-deployments": "^2.0.1",
+    "strapi-utils": "^3.6.11"
   },
   "author": {
     "name": "A Strapi developer"

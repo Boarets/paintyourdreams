@@ -1,28 +1,28 @@
 module.exports = ({ env }) => ({
-    // ...
-    email: {
-      config: {
-        provider: 'nodemailer',
-        providerOptions: {
-          host: env('SMTP_HOST'),
-          port: 587,
-          auth: {
-            user: 'micheleboaretto59@gmail.com',
-            pass: 'mzsmkjejtkwxdcpn',
-          },
-          // ... any custom nodemailer options
+  // ...
+  email: {
+    config: {
+      provider: 'nodemailer',
+      providerOptions: {
+        host: 'smtp.gmail.com',//host: env('SMTP_HOST'),
+        port: 587,
+        auth: {
+          user: 'micheleboaretto59@gmail.com',
+          pass: 'trhytsuyjqgieejc',
         },
-        settings: {
-          defaultFrom: 'micheleboaretto59@gmail.com',
-          defaultReplyTo: 'micheleboaretto59@gmail.com',
-        },
+        // ... any custom nodemailer options
+      },
+      settings: {
+        defaultFrom: 'micheleboaretto59@gmail.com',
+        defaultReplyTo: 'micheleboaretto59@gmail.com',
       },
     },
-    // ...
-  });
+  },
+  upload: {
+    config: {
+      sizeLimit: 250 * 1024 * 1024 // 256mb in byte
+    }
+  }
 
-  module.exports = ({ env }) => ({
-    "netlify-deployments": {
-      enabled: true,
-    },
-  });
+  // ...
+});

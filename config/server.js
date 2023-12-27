@@ -7,4 +7,10 @@ module.exports = ({ env }) => ({
   webhooks: {
     populateRelations: env.bool('WEBHOOKS_POPULATE_RELATIONS', false),
   },
+  settings: {
+    logger: {
+      level: 'info', // Modifica il livello del logger se necessario
+      path: 'logs', // Cartella dei log
+    },
+  },
 });
